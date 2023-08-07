@@ -102,8 +102,4 @@ impl Grid {
     fn pos_to_index(&self, x: i32, y: i32) -> usize {
         (y * self.width as i32 + x) as usize
     }
-
-    pub fn draw() {
-
-    }
 }
